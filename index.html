@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Apotek | Budi Luhur</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    /* Custom CSS for product items */
+    .product-img {
+      max-width: 100%;
+      height: auto;
+      max-height: 200px; /* Ensuring the image doesn't become too large */
+      margin-bottom: 15px;
+      border-radius: 10px; /* Adding rounded corners for a modern look */
+    }
+
+    .product-title {
+      font-size: 1.1em; /* Adjust the font size for product title */
+      font-weight: 700; /* Make the title bold */
+      margin-bottom: 5px;
+    }
+
+    .price {
+      font-size: 1em; /* Adjust the font size for the price */
+      color: #555; /* A slightly darker color for the price */
+    }
+
+    /* Additional styling to improve overall look */
+    .item-v2 {
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adding subtle shadow */
+      transition: transform 0.3s ease;
+    }
+
+    .item-v2:hover {
+      transform: translateY(-10px); /* Adding a slight lift on hover */
+    }
+    .icons {
+    position: relative;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0; /* Drop down to the right */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .icons-btn {
+    background-color: #ccc; /* Highlight the button when dropdown is active */
+}
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="site-wrap">
+
+    <div class="site-navbar py-2">
+      <div class="search-wrap">
+        <div class="container">
+          <a href="#" class="search-close js-search-close"><span class="icon-close2"></span></a>
+          <form action="#" method="post">
+            <input type="text" class="form-control" placeholder="Search keyword and hit enter...">
+          </form>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="logo">
+            <div class="site-logo">
+              <a href="index.html" class="js-logo-clone"><strong class="text-primary">Budi</strong>Luhur</a>
+            </div>
+          </div>
+          <div class="main-nav d-none d-lg-block">
+            <nav class="site-navigation text-right text-md-center" role="navigation">
+              <ul class="site-menu js-clone-nav d-none d-lg-block">
+                <li class="active"><a href="index.html">Beranda</a></li>
+                <li><a href="shop.html">Produk</a></li>
+                <li><a href="about.html">Artikel</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="icons">
+            <a href="cart.html" class="icons-btn d-inline-block bag">
+                <span class="icon-shopping-bag"></span>
+                <span class="number">2</span>
+            </a>
+            <div class="dropdown">
+                <a href="#" class="icons-btn d-inline-block js-user-open"><span class="icon-user"></span></a>
+                <div class="dropdown-content">
+                    <a href="pesanan.html">Pesanan</a>
+                    <a href="index-awal.html">Keluar</a>
+                </div>
+            </div>
+            <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span class="icon-menu"></span></a>
+        </div>
+            
+        </div>
+      </div>
+    </div>
+
+    <div class="owl-carousel owl-single px-0">
+      <div class="site-blocks-cover overlay" style="background-image: url('images/hero_bg5.webp');">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 mx-auto align-self-center">
+              <div class="site-block-cover-content text-center">
+                <h1 class="mb-0"><strong class="text-white">APOTEK</strong> BUDILUHUR</h1>
+                <div class="row justify-content-center mb-5">
+                  <div class="col-lg-6 text-center">
+                    <p>Kesehatan adalah investasi terbaik. Kami di sini untuk membantu Anda mencapai kesehatan yang optimal. Selamat datang di apotek kami!</p>
+                  </div>
+                </div>
+                <p><a href="shop.html" class="btn btn-primary px-5 py-3">Beli Sekarang</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-blocks-cover overlay" style="background-image: url('images/hero_bg_2.jpg');">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 mx-auto align-self-center">
+              <div class="site-block-cover-content text-center">
+                <h1 class="mb-0">Kami Peduli <strong class="text-white">Kesehatan Anda </strong></h1>
+                <div class="row justify-content-center mb-5">
+                  <div class="col-lg-6 text-center">
+                    <p>Temukan semua kebutuhan kesehatan Anda di Apotek Budi Luhur. Melayani dengan hati, menyediakan yang terbaik untuk kesehatan Anda.</p>
+                  </div>
+                </div>
+                <p><a href="https://www.instagram.com/shahlaalaaa/" class="btn btn-primary px-5 py-3">Ikuti Kami</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="title-section text-center col-12">
+            <h2><strong class="text-primary">Artikel</strong></h2>
+          </div>
+          <div class="col-lg-4">
+            <div class="feature">
+              <img src="images/artikel_1.jpg" alt="Image placeholder" class="img-fluid mb-4">
+              <h3><a href="article.html">Manfaat Kesehatan dari Pola Hidup Sehat</a></h3>
+              <p>Menjaga kesehatan adalah hal yang sangat penting. Kami memberikan berbagai tips dan saran untuk menjalani pola hidup sehat.</p>
+              <p><a href="article.html" class="d-flex align-items-center justify-content-between"><span class="mr-2">Baca Selengkapnya</span> <span class="icon-keyboard_arrow_right"></span></a></p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="feature">
+              <img src="images/artikel_2.jpg" alt="Image placeholder" class="img-fluid mb-4">
+              <h3><a href="article_2.html">Panduan Konsumsi Vitamin yang Tepat</a></h3>
+              <p>Vitamin sangat penting untuk kesehatan tubuh. Pelajari cara konsumsi vitamin yang benar agar manfaatnya dapat dirasakan secara optimal.</p>
+              <p><a href="article_2.html" class="d-flex align-items-center justify-content-between"><span class="mr-2">Baca Selengkapnya</span> <span class="icon-keyboard_arrow_right"></span></a></p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="feature">
+              <img src="images/artikel_3.jpg" alt="Image placeholder" class="img-fluid mb-4">
+              <h3><a href="article_3.html">Cara Efektif Mengelola Stres</a></h3>
+              <p>Stres dapat mempengaruhi kesehatan fisik dan mental. Apotek Budi Luhur berbagi tips untuk mengelola stres dengan efektif.</p>
+              <br>
+              <p><a href="article_3.html" class="d-flex align-items-center justify-content-between"><span class="mr-2">Baca Selengkapnya</span> <span class="icon-keyboard_arrow_right"></span></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+
+    <div class="site-section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="title-section text-center col-12">
+            <h2><strong class="text-primary">Produk</strong></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 block-3 products-wrap">
+            <div class="nonloop-block-3 owl-carousel">
+
+              <div class="text-center item mb-4 item-v2">
+                <a href="shop-single.html"><img src="images/1a.png" alt="Image" class="product-img"></a>
+                <h3 class="text-dark product-title"><a href="shop-single.html">Hansaplast Koyo Hangat 10's</a></h3>
+                <p class="price">Rp 6.800</p>
+              </div>
+
+              <div class="text-center item mb-4 item-v2">
+                <a href="shop-single-2.html"><img src="images/2a.png" alt="Image" class="product-img"></a>
+                <h3 class="text-dark product-title"><a href="shop-single.html">Promag Cair (Suspensi) 60 ml</a></h3>
+                <p class="price">Rp 18.000</p>
+              </div>
+
+              <div class="text-center item mb-4 item-v2">
+                <a href="shop-single-3.html"><img src="images/4a.png" alt="Image" class="product-img"></a>
+                <h3 class="text-dark product-title"><a href="shop-single.html">Vitamin B Complex IPI</a></h3>
+                <p class="price">Rp 14.000</p>
+              </div>
+
+              <div class="text-center item mb-4 item-v2">
+                <a href="shop-single-4.html"><img src="images/3a.png" alt="Image" class="product-img"></a>
+                <h3 class="text-dark product-title"><a href="shop-single.html">Fresh Care Smash Inhaler</a></h3>
+                <p class="price">Rp 16.500</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+    <!-- <div class="site-section bg-image overlay" style="background-image: url('images/hero_bg_2.jpg');">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+         <div class="col-lg-7">
+           <h3 class="text-white">Sign up for discount up to 55% OFF</h3>
+           <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam.</p>
+           <p class="mb-0"><a href="#" class="btn btn-outline-white">Sign up</a></p>
+         </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+      <title>Apotek | Budi Luhur</title>
+      <!-- Include head section -->
+    </head>
+    
+    <body>
+    
+      <!-- Include navbar and site content -->
+    
+      <!-- Pengalaman Pelanggan -->
+      <div class="site-section">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-6">
+              <div class="title-section">
+                <h2>Pengalaman <strong class="text-primary">Pelanggan</strong></h2>
+              </div>
+              <div class="block-3 products-wrap">
+                <div class="owl-single no-direction owl-carousel">
+    
+                  <!-- Testimoni 1 -->
+                  <div class="testimony">
+                    <blockquote>
+                      <img src="images/people1.jpg" alt="Image" class="img-fluid">
+                      <p>&ldquo;Saya sangat puas dengan pelayanan di Apotik Budi Luhur. Obat-obat yang mereka sediakan selalu lengkap, dan apoteker yang ramah dan kompeten selalu siap membantu dengan pertanyaan atau masalah kesehatan saya. Terima kasih banyak!&rdquo;</p>
+                    </blockquote>
+    
+                    <p class="author">&mdash; Fairuz Zahira</p>
+                  </div>
+    
+                  <!-- Testimoni 2 -->
+                  <div class="testimony">
+                    <blockquote>
+                      <img src="images/people2.jpg" alt="Image" class="img-fluid">
+                      <p>&ldquo;Saya sangat terkesan dengan Apotik Budi Luhur. Pelayanan yang cepat dan ramah, serta stok obat yang selalu tersedia membuat saya merasa nyaman berbelanja di sini. Sangat direkomendasikan!&rdquo;</p>
+                    </blockquote>
+    
+                    <p class="author">&mdash; Amelia Indah</p>
+                  </div>
+    
+                  <!-- Testimoni 3 -->
+                  <div class="testimony">
+                    <blockquote>
+                      <img src="images/people3.jpg" alt="Image" class="img-fluid">
+                      <p>&ldquo;Saya selalu mempercayakan kebutuhan obat-obatan saya kepada Apotik Budi Luhur. Pelayanan yang ramah dan profesional, serta stok obat yang lengkap membuat saya merasa aman dan nyaman. Terima kasih banyak atas pelayanan yang baik!&rdquo;</p>
+                    </blockquote>
+    
+                    <p class="author">&mdash; Lintang Sekar</p>
+                  </div>
+    
+                  <!-- Testimoni 4 -->
+                  <div class="testimony">
+                    <blockquote>
+                      <img src="images/people4.jpg" alt="Image" class="img-fluid">
+                      <p>&ldquo;Saya sangat mengapresiasi pelayanan di Apotik Budi Luhur. Selain stok obat yang lengkap, apoteker yang selalu ramah dan bersedia memberikan penjelasan membuat saya merasa senang berbelanja di sini. Terima kasih banyak!&rdquo;</p>
+                    </blockquote>
+    
+                    <p class="author">&mdash; Lintang Anggraini</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Mengapa Kami -->
+            <div class="col-lg-5">
+              <div class="title-section">
+                <h2 class="mb-5">Mengapa <strong class="text-primary">Kami</strong></h2>
+                <div class="step-number d-flex mb-4">
+                  <span>1</span>
+                  <p>Kami menyediakan layanan kesehatan yang berkualitas tinggi. Obat-obatan yang kami sediakan selalu bermutu dan terjamin keasliannya.</p>
+                </div>
+    
+                <div class="step-number d-flex mb-4">
+                  <span>2</span>
+                  <p>Kami memiliki apoteker yang profesional dan berpengalaman. Mereka siap memberikan informasi dan saran terbaik mengenai kesehatan Anda.</p>
+                </div>
+    
+                <div class="step-number d-flex mb-4">
+                  <span>3</span>
+                  <p>Kami menawarkan pelayanan yang ramah dan personal. Kami peduli dengan kebutuhan kesehatan Anda dan berkomitmen untuk memberikan yang terbaik.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Footer -->
+          <footer class="site-footer bg-white">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                  <div class="block-7">
+                    <h3 class="footer-heading mb-4">Tentang <strong class="text-primary">Apotek Budi Luhur</strong></h3>
+                    <p>Apotek Budi Luhur berkomitmen untuk menyediakan produk kesehatan berkualitas dan pelayanan terbaik untuk masyarakat.</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 mx-auto mb-5 mb-lg-0">
+                  <h3 class="footer-heading mb-4">Navigasi</h3>
+                  <ul class="list-unstyled">
+                    <li><a href="index.html" class="text-primary">Beranda</a></li>
+                    <li><a href="shop.html" class="text-primary">Produk</a></li>
+                    <li><a href="about.html" class="text-primary">Artikel</a></li>
+                    <li><a href="contact.html" class="text-primary">Kontak</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                  <div class="block-5 mb-5">
+                    <h3 class="footer-heading mb-4">Informasi Kontak</h3>
+                    <ul class="list-unstyled">
+                      <li class="address">Surabaya, Jawa Timur ID</li>
+                      <li class="phone"><a href="wa.me/62881036526942">+62 123 456 789</a></li>
+                      <li class="email">info@apotekbudiluhur.com</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="row pt-5 mt-5 text-center">
+                <div class="col-md-12">
+                  <p>&copy;
+                    <script>document.write(new Date().getFullYear());</script> Apotek Budi Luhur
+                  </p>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

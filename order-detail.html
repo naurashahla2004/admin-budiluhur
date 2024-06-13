@@ -1,0 +1,238 @@
+=<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apotek | Budi Luhur</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .user {
+            display: flex;
+            align-items: center;
+        }
+
+        .user img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .order-info {
+            margin-bottom: 30px;
+        }
+
+        .order-info h2 {
+            margin-bottom: 10px;
+        }
+
+        .order-info p {
+            margin-bottom: 5px;
+        }
+
+        .order-summary {
+            margin-bottom: 30px;
+        }
+
+        .order-summary h3 {
+            margin-bottom: 15px;
+        }
+
+        .order-summary table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .order-summary th,
+        .order-summary td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .order-summary th {
+            background-color: #f8f9fa;
+        }
+
+        .order-summary .total {
+            font-weight: bold;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn-primary {
+            background-color: #87cb69;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #72b656;
+        }
+
+        .btn-secondary {
+            background-color: #f8f9fa;
+            color: #87cb69;
+        }
+
+        .btn-secondary:hover {
+            background-color: #e2e6ea;
+        }
+
+        .order-details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .order-details .label {
+            font-weight: bold;
+            width: 150px;
+        }
+
+        .order-details .value {
+            width: calc(100% - 150px - 20px);
+        }
+
+        .order-details input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="user">
+                <!-- <img src="https://i.ibb.co/3vH6M8w/user.png" alt="User Icon"> -->
+            </div>
+        </div>
+        <div class="order-info">
+            <h2>Detail Pesanan</h2>
+            <p>ID Pesanan: #070224549</p>
+        </div>
+        <div class="order-details">
+            <div class="label">Nama</div>
+            <div class="value">
+                <input type="text" placeholder="Soraya Rasyeed">
+            </div>
+        </div>
+        <div class="order-details">
+          <div class="label">No Telepon</div>
+          <div class="value">
+              <input type="text" placeholder="081234567890">
+          </div>
+      </div>
+        <div class="order-details">
+            <div class="label">Tanggal Pesan</div>
+            <div class="value">
+                <input type="text" placeholder="07 Feb 2024 12.30.48">
+            </div>
+        </div>
+        <div class="order-details">
+            <div class="label">Alamat Pengiriman</div>
+            <div class="value">
+                <input type="text" placeholder="Jl Gubeng Kertajaya 9B Dalam, 26">
+                <input type="text" placeholder="Airlangga, Gubeng, Surabaya, Jawa Timur 66263">
+            </div>
+        </div>
+        <div class="order-details">
+            <div class="label">Metode Pengiriman</div>
+            <div class="value">
+                <input type="text" placeholder="Reguler">
+            </div>
+        </div>
+        <div class="order-summary">
+            <h3>Rincian Pesanan</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Jumlah</th>
+                        <th>Harga</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>Hansaplast Koyo Hangat 10's</td>
+                          <td>2</td>
+                          <td>Rp 6.800</td>
+                      </tr>
+                      <tr>
+                          <td>Promag Cair (Suspensi) 60 ml</td>
+                          <td>1</td>
+                          <td>Rp 18.000</td>
+                      </tr>
+                  </tbody>
+                  <tfoot>
+                      <tr>
+                          <th colspan="2">Subtotal</th>
+                          <td class="total">Rp 31.600</td>
+                      </tr>
+                      <tr>
+                          <th colspan="2">Biaya Pengiriman</th>
+                          <td class="total">Rp 5.000</td>
+                      </tr>
+                      <tr>
+                          <th colspan="2">Total</th>
+                          <td class="total">Rp 36.600</td>
+                      </tr>
+                  </tfoot>
+              </table>
+          </div>
+      </div>
+  </body>
+  </html>
+  

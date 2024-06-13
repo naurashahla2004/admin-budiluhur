@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Apotek | Budi Luhur</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Product */
+    .sec {
+      padding: 70px 5%;
+      background-color: #f8f9fa;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .products .card {
+      background: #ffffff;
+      box-shadow: 0 10px 20px rgba(201, 201, 201, 0.3); 
+      border-radius: 15px; 
+      padding: 5px;
+    }
+
+    .products .card img {
+      height: 250px;
+      width: 100%;
+    }
+
+    .products .card .desc {
+      padding: 5px 20px;
+      opacity: 0.8;
+    }
+
+    .products .card .title {
+      font-weight: 900;
+      font-size: 19px;
+      color: #424144;
+      margin-top: 0; /* Jarak atas 10px */
+      margin-bottom: 0;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .products .card .box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px; /* Jarak atas 5px */
+      margin-bottom: 20px;
+      margin-left: 20px;
+      margin-right: 20px; /* Mengurangi padding atas */
+    }
+
+    .products .card .box .price {
+      color: #75b239;
+      font-size: 17px;
+      font-weight: bold;
+    }
+
+    .site-footer {
+      background-color: #f8f9fa;
+      width: 1200px;
+      height: 550px;
+      background-color: #f8f9fa;
+      margin: 0 auto; /* Untuk memastikan footer berada di tengah halaman */
+    }
+    .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0; /* Drop down to the right */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .icons-btn {
+    background-color: #ccc; /* Highlight the button when dropdown is active */
+}
+  </style>
+</head>
+
+<body>
+  <div class="site-wrap">
+    <div class="site-navbar py-2">
+      <div class="search-wrap">
+        <div class="container">
+          <a href="#" class="search-close js-search-close"><span class="icon-close2"></span></a>
+          <form action="#" method="post">
+            <input type="text" class="form-control" placeholder="Search keyword and hit enter...">
+          </form>
+        </div>
+      </div>
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="logo">
+            <div class="site-logo">
+              <a href="index.html" class="js-logo-clone"><strong class="text-primary">BUDI</strong>LUHUR</a>
+            </div>
+          </div>
+          <div class="main-nav d-none d-lg-block">
+            <nav class="site-navigation text-right text-md-center" role="navigation">
+              <ul class="site-menu js-clone-nav d-none d-lg-block">
+                <li><a href="index.html">Beranda</a></li>
+                <li class="active"><a href="shop.html">Produk</a></li>
+                <li><a href="about.html">Artikel</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="icons">
+            <a href="#" class="icons-btn d-inline-block js-search-open"><span class="icon-search"></span></a>
+            <a href="cart.html" class="icons-btn d-inline-block bag">
+                <span class="icon-shopping-bag"></span>
+                <span class="number">2</span>
+            </a>
+            <div class="dropdown">
+                <a href="#" class="icons-btn d-inline-block js-user-open"><span class="icon-user"></span></a>
+                <div class="dropdown-content">
+                    <a href="pesanan.html">Pesanan</a>
+                    <a href="index-awal.html">Keluar</a>
+                </div>
+            </div>
+            <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span class="icon-menu"></span></a>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <section class="sec">
+      <div class="products">
+        <div class="card">
+          <div class="img">
+            <a href="shop-single.html"><img src="images/12.png" alt="Image_12"></a>
+          </div>
+          <div class="title">Tolak Angin Cair + Madu 15 ml 5 Sachet</div>
+          <div class="box">
+            <div class="price">Rp 16.100</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="images/14.png" alt="Image_14">
+          </div>
+          <div class="title">Antangin JRG Cair 12 Sachet</div>
+          <div class="box">
+            <div class="price">Rp 42.800</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="images/15.png" alt="Image_15">
+          </div>
+          <div class="title">Hufagrip TMP Sirup 60 ml</div>
+          <div class="box">
+            <div class="price">Rp 10.800</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="images/16.png" alt="Image_16">
+          </div>
+          <div class="title">Hufagrip Pilek Sirup 60 ml</div>
+          <div class="box">
+            <div class="price">Rp 18.300</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="images/17.png" alt="Image_17">
+          </div>
+          <div class="title">Hufagrip Flu & Batuk Sirup 60 ml</div>
+          <div class="box">
+            <div class="price">Rp 24.500</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="images/18.png" alt="Image_18">
+          </div>
+          <div class="title">Hufagrip BP Anak Sirup 60 ml</div>
+          <div class="box">
+            <div class="price">Rp 22.300</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="images/19.png" alt="Image_19">
+          </div>
+          <div class="title">Vicks Vaporub Hemat 25 g</div>
+          <div class="box">
+            <div class="price">Rp 20.600</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="images/20.png" alt="Image_20">
+          </div>
+          <div class="title">Vicks Vaporub Saku 10g</div>
+          <div class="box">
+            <div class="price">Rp 8.700</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="images/27.png" alt="Image_27">
+          </div>
+          <div class="title">Strepsil Sugar Free Lemon 1 Sachet</div>
+          <div class="box">
+            <div class="price">Rp 18.000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="images/25.png" alt="Image_25">
+          </div>
+          <div class="title">Panadol Cold & Flu 10 Kaplet</div>
+          <div class="box">
+            <div class="price">Rp 16.500</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="images/23.png" alt="Image_23">
+          </div>
+          <div class="title">Panadol Extra 10 Kaplet</div>
+          <div class="box">
+            <div class="price">Rp 13.900</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="images/24.png" alt="Image_24">
+          </div>
+          <div class="title">Panadol 500 mg 10 Kaplet</div>
+          <div class="box">
+            <div class="price">Rp 12.700</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="row mt-5">
+      <div class="col-md-12 text-center">
+        <div class="site-block-27">
+          <ul>
+            <li><a href="#">&lt;</a></li>
+            <li><a href="shop.html">1</a></li>
+            <li class="active"><span>2</span></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">&gt;</a></li>
+            <br>
+            <br>
+            <br>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="block-7">
+            <h3 class="footer-heading mb-4">Tentang <strong class="text-primary">Apotek Budi Luhur</strong></h3>
+            <p>Apotek Budi Luhur berkomitmen untuk menyediakan produk kesehatan berkualitas dan pelayanan terbaik untuk masyarakat.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 mx-auto mb-5 mb-lg-0">
+          <h3 class="footer-heading mb-4">Navigasi</h3>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-primary">Beranda</a></li>
+            <li><a href="shop.html" class="text-primary">Produk</a></li>
+            <li><a href="about.html" class="text-primary">Artikel</a></li>
+            <li><a href="contact.html" class="text-primary">Kontak</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="block-5 mb-5">
+            <h3 class="footer-heading mb-4">Informasi Kontak</h3>
+            <ul class="list-unstyled">
+              <li class="address">Surabaya, Jawa Timur ID</li>
+              <li class="phone"><a href="wa.me/62881036526942">+62 123 456 789</a></li>
+              <li class="email">info@apotekbudiluhur.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-5 mt-5 text-center">
+        <div class="col-md-12">
+          <p>&copy;
+            <script>document.write(new Date().getFullYear());</script> Apotek Budi Luhur
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.querySelector('.js-search-open').addEventListener('click', function() {
+    document.querySelector('.search-wrap').classList.add('active');
+  });
+
+  document.querySelector('.js-search-close').addEventListener('click', function() {
+    document.querySelector('.search-wrap').classList.remove('active');
+  });
+</script>
+</body>
+</html>

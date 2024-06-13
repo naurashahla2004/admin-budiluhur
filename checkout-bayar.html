@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Apotek | Budi Luhur</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .site-section {
+      padding: 20px 5%;
+      background-color: #f8f9fa;
+    }
+    .site-footer {
+      background-color: #f8f9fa;
+      width: 1200px;
+      height: 550px;
+      background-color: #f8f9fa;
+      margin: 0 auto; /* Untuk memastikan footer berada di tengah halaman */
+    }
+    .detail-pengiriman p {
+      margin-bottom: 5px; /* Mengatur margin bawah untuk setiap paragraf */
+    }
+    .metode-pengiriman {
+      margin-top: 20px; /* Mengatur jarak atas untuk bagian metode pengiriman */
+    }
+    .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0; /* Drop down to the right */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .icons-btn {
+    background-color: #ccc; /* Highlight the button when dropdown is active */
+}
+  </style>
+</head>
+
+<body>
+  <div class="site-wrap">
+    <div class="site-navbar py-2">
+      <div class="search-wrap">
+        <div class="container">
+          <a href="#" class="search-close js-search-close"><span class="icon-close2"></span></a>
+          <form action="#" method="post">
+            <input type="text" class="form-control" placeholder="Search keyword and hit enter...">
+          </form>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="logo">
+            <div class="site-logo">
+              <a href="index.html" class="js-logo-clone"><strong class="text-primary">Budi</strong>Luhur</a>
+            </div>
+          </div>
+          <div class="main-nav d-none d-lg-block">
+            <nav class="site-navigation text-right text-md-center" role="navigation">
+              <ul class="site-menu js-clone-nav d-none d-lg-block">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="shop.html">Produk</a></li>
+                <li><a href="about.html">Artikel</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="icons">
+            <a href="cart.html" class="icons-btn d-inline-block bag">
+                <span class="icon-shopping-bag"></span>
+                <span class="number">2</span>
+            </a>
+            <div class="dropdown">
+                <a href="#" class="icons-btn d-inline-block js-user-open"><span class="icon-user"></span></a>
+                <div class="dropdown-content">
+                    <a href="pesanan.html">Pesanan</a>
+                    <a href="index-awal.html">Keluar</a>
+                </div>
+            </div>
+            <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span class="icon-menu"></span></a>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-12">
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-5 mb-md-0">
+                <h2 class="h3 mb-3 text-black">Detail Pengiriman</h2>
+                <div class="p-3 p-lg-5 border mb-3 detail-pengiriman">
+                  <a href="checkout.html" class="text-primary" style="position: absolute; top: 40px; right: 15px; text-decoration: underline; font-weight: bold; color: #75b239;">Edit</a>  
+                  <p><strong class="text-black">Soraya Rasyeed</strong></p>
+                  <p><strong class="text-black">081234567890</strong></p>
+                  <p><strong class="text-black">Jl Gubeng Kertajaya 9B Dalam, 26. Airlangga, Gubeng, Surabaya, Jawa Timur 60286</strong></p>
+                  <p><strong class="text-black">Airlangga, Gubeng, Surabaya, Jawa Timur 60286</strong></p>
+                </div>
+                <h2 class="h3 mb-3 text-black metode-pengiriman">Metode Pengiriman</h2>
+                <div class="p-3 p-lg-5 border">
+                  <div class="form-group">
+                    <label for="shipping_method" class="text-black">Metode Pengiriman <span class="text-danger">*</span></label>
+                    <select class="form-control" id="shipping_method" name="shipping_method">
+                      <option value="reguler">Reguler - Rp 5.000</option>
+                    </select>
+                  </div>
+                </div>
+              </div>              
+          <div class="col-md-6">
+            <div class="row mb-5">
+              <div class="col-md-12">
+                <h2 class="h3 mb-3 text-black">Pesanan</h2>
+                <div class="p-3 p-lg-5 border">
+                  <table class="table site-block-order-table mb-5">
+                    <thead>
+                      <th>Produk</th>
+                      <th>Total</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Hansaplast Koyo Hangat 10's <strong class="mx-2">x</strong> 2</td>
+                        <td>Rp 13.600</td>
+                      </tr>
+                      <tr>
+                        <td>Promag Cair (Suspensi) 60 ml <strong class="mx-2">x</strong> 1</td>
+                        <td>Rp 18.000</td>
+                      </tr>
+                      <tr>
+                        <td>Biaya Pengiriman</td>
+                        <td>Rp 5.000</td>
+                      </tr>
+                      <tr>
+                        <td class="text-black font-weight-bold"><strong>Total</strong></td>
+                        <td class="text-black font-weight-bold">Rp 36.600</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <!-- Metode Pembayaran -->
+                  <div class="border mb-3">
+                    <h3 class="h6 mb-0"><a class="d-block" data-toggle="collapse" href="#collapseCOD" role="button"
+                        aria-expanded="false" aria-controls="collapseCOD">Bayar di Tempat</a></h3>
+                    <div class="collapse" id="collapseCOD">
+                      <div class="py-2 px-4">
+                        <p class="mb-0">Silakan lakukan pembayaran kepada kurir saat pesanan Anda tiba di alamat pengiriman.</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="border mb-3">
+                    <h3 class="h6 mb-0"><a class="d-block" data-toggle="collapse" href="#collapseQRIS" role="button"
+                        aria-expanded="false" aria-controls="collapseQRIS">QRIS</a></h3>
+                    <div class="collapse" id="collapseQRIS">
+                      <div class="py-2 px-4">
+                        <p class="mb-0">Silakan lakukan pembayaran menggunakan QRIS dengan memindai kode di bawah ini:</p>
+                        <img src="images/code.png" alt="QRIS Code" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="form-group">
+                    <button class="btn btn-primary btn-lg btn-block" onclick="window.location='thankyou.html'">PESAN</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="site-footer bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="block-7">
+              <h3 class="footer-heading mb-4">Tentang <strong class="text-primary">Apotek Budi Luhur</strong></h3>
+              <p>Apotek Budi Luhur berkomitmen untuk menyediakan produk kesehatan berkualitas dan pelayanan terbaik untuk masyarakat.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 mx-auto mb-5 mb-lg-0">
+            <h3 class="footer-heading mb-4">Navigasi</h3>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="text-primary">Beranda</a></li>
+              <li><a href="shop.html" class="text-primary">Produk</a></li>
+              <li><a href="about.html" class="text-primary">Artikel</a></li>
+              <li><a href="contact.html" class="text-primary">Kontak</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="block-5 mb-5">
+              <h3 class="footer-heading mb-4">Informasi Kontak</h3>
+              <ul class="list-unstyled">
+                <li class="address">Surabaya, Jawa Timur ID</li>
+                <li class="phone"><a href="wa.me/62881036526942">+62 123 456 789</a></li>
+                <li class="email">info@apotekbudiluhur.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <p>&copy;
+              <script>document.write(new Date().getFullYear());</script> Apotek Budi Luhur
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+
+  </div>
+</body>
+</html>
